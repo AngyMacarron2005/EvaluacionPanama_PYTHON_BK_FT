@@ -1,0 +1,24 @@
+<h2>Registro de Persona</h2>
+
+<form [formGroup]="form">
+  <label>
+  Placa:
+  <input type="text" formControlName="placa" />
+</label>
+
+  <label>
+    Marca:
+    <input type="text" formControlName="marca" />
+  </label>
+
+  <label>
+    Modelo:
+    <input type="text" formControlName="modelo" />
+  </label>
+
+  <button type="button" (click)="guardar()">Guardar</button>
+</form>
+
+<p>{{ mensaje }}</p>
+
+<a routerLink="/Vehiculo/listado">Ir al Listado de Vehículos</a>

@@ -1,0 +1,77 @@
+.contenedor {
+  max-width: 650px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 26px;
+  color: #000000;
+  margin: 0;
+}
+
+.subtitulo {
+  font-size: 18px;
+  color: #7a7a7a;
+}
+
+.info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  background: #6e6e6e;
+  border: none;
+  padding: 8px 15px;
+  color: white;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background: #5935ff;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.menu a {
+  text-decoration: none;
+  background: #f2f0ff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: #000000;
+  transition: 0.2s ease;
+}
+
+.menu a:hover {
+  background: #e4e0ff;
+}
+
+.active {
+  background: #d0caff !important;
+  font-weight: bold;
+}
+
+.contenido {
+  margin-top: 20px;
+}
+.contenido h2 {
+  color: #6d4aff;
+  margin-bottom: 10px;
+}

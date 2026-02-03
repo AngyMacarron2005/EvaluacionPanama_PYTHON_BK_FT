@@ -1,0 +1,23 @@
+<h2 class="titulo">Listado de Vehiculos</h2>
+
+<table class="tabla" *ngIf="vehiculos.length > 0">
+  <thead>
+    <tr>
+      <th>Placa</th>
+      <th>Marca</th>
+      <th>Modelo</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let vehiculo of vehiculos">
+      <td>{{ vehiculo.placa }}</td>
+      <td>{{ vehiculo.marca }}</td>
+      <td>{{ vehiculo.modelo }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<p *ngIf="vehiculos.length === 0">
+  No hay vehiculos registrados.
+</p>
